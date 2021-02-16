@@ -19,7 +19,7 @@ public class FindBeerActivity extends AppCompatActivity {
     public void onClickFindBeer(View view) {
         TextView brands = (TextView) findViewById(R.id.brands);
         Spinner color = (Spinner) findViewById(R.id.color);
-        
+
         String beerType = String.valueOf(color.getSelectedItem());
         brands.setText(beerType);
 
